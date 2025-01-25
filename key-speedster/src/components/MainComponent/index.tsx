@@ -16,9 +16,6 @@ export default function MainContent() {
     setParagraph(paragraphs[generateRandom(1, 10).toString()]);
   }, []);
 
-  const compareText = (correctPara: string, inputPara: string) => {
-    for (let i = 0; i < inputPara.length; i++) {}
-  };
 
   return (
     <div>
